@@ -6,6 +6,9 @@ RUN pip install --no-cache-dir \
     datasets \
     huggingface-hub \
     tqdm \
+    transformers \
+    accelerate \
+    safetensors \
     && apt-get update -qq \
     && apt-get install -y -qq openssh-server git \
     && mkdir -p /run/sshd \
