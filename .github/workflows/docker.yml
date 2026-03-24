@@ -30,6 +30,6 @@ jobs:
           push: true
           tags: |
             ${{ env.IMAGE_NAME }}:latest
-            ${{ env.IMAGE_NAME }}:2.9.1-cuda12.8
+            ${{ env.IMAGE_NAME }}:2.11.0-cuda12.8
           cache-from: type=gha
           cache-to: type=gha,mode=max
