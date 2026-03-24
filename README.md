@@ -4,7 +4,7 @@ GPU compute image for [Light Speed Up](https://lightspeedup.com) projects.
 
 ## What's inside
 
-- **PyTorch 2.9.1** + CUDA 12.8 + cuDNN 9 (official base)
+- **PyTorch 2.11.0** + CUDA 12.8 + cuDNN 9 (official base)
 - sentencepiece, zstandard, datasets, huggingface-hub, tqdm
 - SSH server + git
 - Nothing else

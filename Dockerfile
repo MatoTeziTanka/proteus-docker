@@ -1,4 +1,4 @@
-FROM pytorch/pytorch:2.9.1-cuda12.8-cudnn9-devel
+FROM pytorch/pytorch:2.11.0-cuda12.8-cudnn9-devel
 
 RUN pip install --no-cache-dir \
     sentencepiece \
