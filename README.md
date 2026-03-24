@@ -12,17 +12,17 @@ GPU compute image for [Light Speed Up](https://lightspeedup.com) projects.
 ## Usage
 
 ```bash
-docker pull matotezitanka/proteus:latest
+docker pull matotezitanka/proteus-pytorch:latest
 ```
 
 ### RunPod Template
 
-Deploy on RunPod: `matotezitanka/proteus:latest`
+Deploy on RunPod: `matotezitanka/proteus-pytorch:latest`
 
 ### Local
 
 ```bash
-docker run --gpus all -it matotezitanka/proteus:latest bash
+docker run --gpus all -it matotezitanka/proteus-pytorch:latest bash
 ```
 
 ## Build
@@ -31,8 +31,8 @@ Automated via GitHub Actions on push to main.
 
 Manual:
 ```bash
-docker build -t matotezitanka/proteus:latest .
-docker push matotezitanka/proteus:latest
+docker build -t matotezitanka/proteus-pytorch:latest .
+docker push matotezitanka/proteus-pytorch:latest
 ```
 
 ## License

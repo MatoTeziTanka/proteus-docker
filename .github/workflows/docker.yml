@@ -6,7 +6,7 @@ on:
   workflow_dispatch:
 
 env:
-  IMAGE_NAME: matotezitanka/proteus
+  IMAGE_NAME: matotezitanka/proteus-pytorch
 
 jobs:
   build:
